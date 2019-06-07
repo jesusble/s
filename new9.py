@@ -1,8 +1,8 @@
 w=int(input())
-x=input().split()
+sb=input().split()
 y=[]
 for i in range(0,w):
-  if(int(x[i])==i):
+  if(int(sb[i])==i):
     y.append(x[i])
 if(y==[]):
   print("-1")
