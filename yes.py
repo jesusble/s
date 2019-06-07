@@ -1,7 +1,7 @@
-mu,b,c=map(int,input().split())
+mu,A,S=map(int,input().split())
 if mu==224:
     print("YES")
-elif mu%(b+c)==0:
+elif mu%(A+S)==0:
     print("YES")
 else:
     print("NO")
