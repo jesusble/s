@@ -5,6 +5,6 @@ def two(n):
         return n & (n - 1) == 0
 n = int(input(''))
 if two(n):
-    print("YES")
+    print("yes")
 else:
-    print("NO")
+    print("no")
